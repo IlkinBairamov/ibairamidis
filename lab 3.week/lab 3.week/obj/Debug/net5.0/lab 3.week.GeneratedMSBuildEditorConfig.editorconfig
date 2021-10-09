@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = lab_3.week
+build_property.ProjectDir = C:\Users\ilkin\Desktop\ibairamidis\lab 3.week\lab 3.week\

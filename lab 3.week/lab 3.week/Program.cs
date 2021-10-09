@@ -7,13 +7,13 @@ namespace lab_3.week
     {
         static void Main(string[] args)
         {
-            // Console.WriteLine("input  text");
-            // string text = Console.ReadLine();
-            //Console.WriteLine("input  text1");
-            //string text1 = Console.ReadLine();
-            //Console.WriteLine("input operators");
-            //string operators = Console.ReadLine();
-            //Console.WriteLine(Reverse(text,text1,operators));
+        //    Console.WriteLine("input  text");
+        //    string text = Console.ReadLine();
+        //    Console.WriteLine("input  text1");
+        //    string text1 = Console.ReadLine();
+        //    Console.WriteLine("input operators");
+        //    string operators = Console.ReadLine();
+        //    Console.WriteLine(Reverse(text, text1, operators));
 
 
             //Console.WriteLine("input first number");
@@ -68,119 +68,119 @@ namespace lab_3.week
 
         }
 
-        #region
-        //static int[] CustomSort(int[] arr)
-        //{
+        #region array azdan coxa sırala
+        static int[] CustomSort(int[] arr)
+        {
 
-        //    int temp = 0;
-        //    for (int i = 0; i < arr.Length; i++)
-        //    {
-        //        for (int j = i + 1; j < arr.Length; j++)
-        //        {
-        //            if (arr[i] > arr[j])
-        //            {
-        //                temp = arr[i];
-        //                arr[i] = arr[j];
-        //                arr[j] = temp;
+            int temp = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int j = i + 1; j < arr.Length; j++)
+                {
+                    if (arr[i] > arr[j])
+                    {
+                        temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
 
-        //            }
-        //        }
-        //    }
+                    }
+                }
+            }
 
-        //    return arr;
-        //}
+            return arr;
+        }
         #endregion
 
-        #region
-        //static string CustomJoin(string[] text, string separator)
-        //{
-        //    StringBuilder cb = new StringBuilder();
-        //    for (int i = 0; i < text.Length; i++)
-        //    {
-        //        cb.Append(text[i]);
-        //        if (i < text.Length - 1)
-        //        {
-        //            cb.Append(separator);
-        //        }
-        //    }
-        //    return cb.ToString();
+        #region arraylar arasina separator eklesin ama sonuncya eklenmesin
+        static string CustomJoin(string[] text, string separator)
+        {
+            StringBuilder cb = new StringBuilder();
+            for (int i = 0; i < text.Length; i++)
+            {
+                cb.Append(text[i]);
+                if (i < text.Length - 1)
+                {
+                    cb.Append(separator);
+                }
+            }
+            return cb.ToString();
 
 
-        //}
+        }
         #endregion
 
-        #region
-        //static int Counter(int text,int text2,char operators)
-        //{
-        //    int result = 0;
-        //    switch (operators)
-        //    {
-        //        case '*':
+        #region calculator 
+        static int Counter(int text, int text2, char operators)
+        {
+            int result = 0;
+            switch (operators)
+            {
+                case '*':
 
-        //             result= text * text2;
-        //            break; 
+                    result = text * text2;
+                    break;
 
-        //        case '/':
-        //            result = text * text2;
+                case '/':
+                    result = text * text2;
 
-        //            break;
+                    break;
 
-        //        case '-':
-        //            result = text - text2;
-        //            break;
+                case '-':
+                    result = text - text2;
+                    break;
 
 
-        //        case '+':
-        //            result= text + text2;
-        //            break;
+                case '+':
+                    result = text + text2;
+                    break;
 
-        //        default:
-        //            Console.WriteLine("incorrect operators");
-        //            break;
-        //    }
-        //    return result;
-        //}
+                default:
+                    Console.WriteLine("incorrect operators");
+                    break;
+            }
+            return result;
+        }
         #endregion
 
-        #region        
-        //static string Reverse(string text, string text1,string operators)
-        //{
-        //   text= text.Replace(text1, operators);
-        //    return text;
+        #region   exsample: text=alma operator=+ netice: +lm+
+        static string Reverse(string text, string text1, string operators)
+        {
+            text = text.Replace(text1, operators);
+            return text;
 
-        //}
+        }
         #endregion
 
-        #region 
+        #region  arrayin sonuna nese elave etmek
 
 
-        //static void Reference(ref int[] myArr,int a)
-        //{
-        //    Array.Resize(ref myArr, myArr.Length + 1);
-        //    myArr[myArr.Length - 1] = a;
+        static void Reference(ref int[] myArr, int a)
+        {
+            Array.Resize(ref myArr, myArr.Length + 1);
+            myArr[myArr.Length - 1] = a;
 
 
 
 
-        //}
+        }
         #endregion
 
-        #region 
-        //static void Reference(ref int[] text)
-        //{
+        #region cut ededleri arraya menimsetmek
+        static void Reference(ref int[] text)
+        {
 
-        //    int[] counter = new int[0];
-        //    for (int i = 0; i < text.Length; i++)
-        //    {
-        //        if (text[i] % 2 == 0)
-        //        {
-        //            Array.Resize(ref counter, counter.Length + 1);
-        //            counter[counter.Length - 1] = text[i];
-        //        }
+            int[] counter = new int[0];
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (text[i] % 2 == 0)
+                {
+                    Array.Resize(ref counter, counter.Length + 1);
+                    counter[counter.Length - 1] = text[i];
+                }
 
-        //    }
-        //    text = counter;
-        //}
+            }
+            text = counter;
+        }
         #endregion
     }
 }
