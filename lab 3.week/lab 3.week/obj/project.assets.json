@@ -8,19 +8,26 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ilkin\\.nuget\\packages\\": {}
+    "C:\\Users\\ilkinabr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ilkin\\Desktop\\ibairamidis\\lab 3.week\\lab 3.week\\lab 3.week.csproj",
+      "projectUniqueName": "C:\\Users\\ilkinabr\\Desktop\\ibairamidis\\lab 3.week\\lab 3.week\\lab 3.week.csproj",
       "projectName": "lab 3.week",
-      "projectPath": "C:\\Users\\ilkin\\Desktop\\ibairamidis\\lab 3.week\\lab 3.week\\lab 3.week.csproj",
-      "packagesPath": "C:\\Users\\ilkin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ilkin\\Desktop\\ibairamidis\\lab 3.week\\lab 3.week\\obj\\",
+      "projectPath": "C:\\Users\\ilkinabr\\Desktop\\ibairamidis\\lab 3.week\\lab 3.week\\lab 3.week.csproj",
+      "packagesPath": "C:\\Users\\ilkinabr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ilkinabr\\Desktop\\ibairamidis\\lab 3.week\\lab 3.week\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ilkin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ilkinabr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

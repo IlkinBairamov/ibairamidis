@@ -7,13 +7,13 @@ namespace lab_3.week
     {
         static void Main(string[] args)
         {
-        //    Console.WriteLine("input  text");
-        //    string text = Console.ReadLine();
-        //    Console.WriteLine("input  text1");
-        //    string text1 = Console.ReadLine();
-        //    Console.WriteLine("input operators");
-        //    string operators = Console.ReadLine();
-        //    Console.WriteLine(Reverse(text, text1, operators));
+            //    Console.WriteLine("input  text");
+            //    string text = Console.ReadLine();
+            //    Console.WriteLine("input  text1");
+            //    string text1 = Console.ReadLine();
+            //    Console.WriteLine("input operators");
+            //    string operators = Console.ReadLine();
+            //    Console.WriteLine(Reverse(text, text1, operators));
 
 
             //Console.WriteLine("input first number");
@@ -28,8 +28,6 @@ namespace lab_3.week
 
             //int[] arr = new int[] { 1, 9, 6, 7, 5, 9 };
             //int[] newarr = CustomSort(arr);
-
-
 
             //foreach (int value in newarr)
             //{
