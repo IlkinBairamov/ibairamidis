@@ -1,0 +1,16 @@
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\bin\Debug\net5.0\Arraylist,list.exe
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\bin\Debug\net5.0\Arraylist,list.deps.json
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\bin\Debug\net5.0\Arraylist,list.runtimeconfig.json
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\bin\Debug\net5.0\Arraylist,list.runtimeconfig.dev.json
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\bin\Debug\net5.0\Arraylist,list.dll
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\bin\Debug\net5.0\ref\Arraylist,list.dll
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\bin\Debug\net5.0\Arraylist,list.pdb
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\obj\Debug\net5.0\Arraylist,list.csproj.AssemblyReference.cache
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\obj\Debug\net5.0\Arraylist,list.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\obj\Debug\net5.0\Arraylist,list.AssemblyInfoInputs.cache
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\obj\Debug\net5.0\Arraylist,list.AssemblyInfo.cs
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\obj\Debug\net5.0\Arraylist,list.csproj.CoreCompileInputs.cache
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\obj\Debug\net5.0\Arraylist,list.dll
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\obj\Debug\net5.0\ref\Arraylist,list.dll
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\obj\Debug\net5.0\Arraylist,list.pdb
+C:\Users\ilkinabr\source\repos\Arraylist,list\Arraylist,list\obj\Debug\net5.0\Arraylist,list.genruntimeconfig.cache
