@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="homework.css" />
+    <title>HomeWork</title>
+  </head>
+  <body>
+    <header>
+      <h1>Please fill out the form completely</h1>
+      <div class="underline"></div>
+    </header>
+
+    <main>
+      <section>
+        <div>
+          <h2>Your account information</h2>
+        </div>
+
+        <table>
+          <tbody>
+            <tr>
+              <td style="width: 120px">
+                <label for="username">Username:</label>
+              </td>
+              <td style="width: 50px"></td>
+              <td>
+                <input
+                  type="text"
+                  id="username"
+                  placeholder="Write your username"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="email">Email:</label>
+              </td>
+              <td class="width"></td>
+              <td>
+                <input type="email" id="email" placeholder="Write your email" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="password">Password:</label>
+              </td>
+              <td style="width: 50px"></td>
+              <td>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Write your password"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <div>
+          <h2>Your personal information</h2>
+        </div>
+
+        <table>
+          <tbody>
+            <tr>
+              <td style="width: 120px">
+                <label for="name">Name:</label>
+              </td>
+              <td class="width"></td>
+              <td>
+                <input type="text" id="name" placeholder="Input Name" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="surname">Surname:</label>
+              </td>
+              <td class="width"></td>
+              <td>
+                <input type="text" id="surname" placeholder="Input surname" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="city">City:</label>
+              </td>
+              <td class="width"></td>
+              <td>
+                <select id="city">
+                  <option>Choose</option>
+                  <option>Baku</option>
+                  <option>Sumqayit</option>
+                  <option>Gence</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>Gender:</label>
+              </td>
+              <td class="width"></td>
+              <td>
+                <input type="radio" name="gender" id="male" />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" />
+                <label for="female">Female</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="hobbies">Your Hobbies:</label>
+              </td>
+              <td></td>
+              <td>
+                <input type="checkbox" />Cinema
+                <input type="checkbox" />Football
+                <input type="checkbox" />Gaming
+              </td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td class="width"></td>
+              <td>
+                <button type="submit">Submit</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

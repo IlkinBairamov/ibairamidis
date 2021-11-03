@@ -1,0 +1,21 @@
+.underline {
+  width: 50%;
+  height: 1px;
+  background: #c7c7c7;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: 300px;
+}
+
+h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  margin-left: 380px;
+}
+.paragraf {
+  display: inline-block;
+}
+.width {
+  width: 50px;
+}
