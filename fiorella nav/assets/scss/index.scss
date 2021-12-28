@@ -1,0 +1,48 @@
+@import "./partial/index";
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+      .col-md-9{
+          div{
+            ul{
+                list-style: none;
+               
+               
+                li{
+                    position: relative;
+                    color: black;
+                    margin-right: 50px;
+                   
+                    
+                    &:hover{
+                        div{
+                           
+                            background-color: white;  
+                            height: 200px;                               
+                        }                        
+                    }                  
+                    a{
+                        text-decoration: none;
+                        color: black;                       
+                    }
+                    div{
+                       
+                        position: absolute;  
+                        top: 50px;
+                        width: 200px;     
+                        height: 0; 
+                        transition: 0.3s ease-in-out; 
+                        overflow: hidden;
+                    }
+                }
+              }
+          }    
+      }   
+}

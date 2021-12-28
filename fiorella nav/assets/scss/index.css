@@ -1,0 +1,42 @@
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#navbar .col-md-9 div ul {
+  list-style: none;
+}
+
+#navbar .col-md-9 div ul li {
+  position: relative;
+  color: black;
+  margin-right: 50px;
+}
+
+#navbar .col-md-9 div ul li:hover div {
+  background-color: white;
+  height: 200px;
+}
+
+#navbar .col-md-9 div ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#navbar .col-md-9 div ul li div {
+  position: absolute;
+  top: 50px;
+  width: 200px;
+  height: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+}
+/*# sourceMappingURL=index.css.map */
